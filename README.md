@@ -82,6 +82,26 @@ Parallax attributes defines a parallax factor for this view
 </com.github.florent37.parallax.ScrollView>
 ```
 
+Horizontal translation
+
+- parallaxHorizontal < 0 : the view will move to the right
+- parallaxHorizontal > 0 : the view will move to the left
+
+```xml
+<com.github.florent37.parallax.ParallaxView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+
+         app:parallaxHorizontal="1.1"
+
+         >
+
+         <!-- content -->
+
+</com.github.florent37.parallax.ScrollView>
+```
+
+
 TODO
 --------
 
