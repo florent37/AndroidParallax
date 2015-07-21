@@ -6,9 +6,7 @@ Parallax on Android in the simplest way
 Download
 --------
 
-In your root build.gradle add
-
-In your wear module [![Download](https://api.bintray.com/packages/florent37/maven/AndroidParallax/images/download.svg)](https://bintray.com/florent37/maven/AndroidParallax/_latestVersion)
+In your build.gradle [![Download](https://api.bintray.com/packages/florent37/maven/AndroidParallax/images/download.svg)](https://bintray.com/florent37/maven/AndroidParallax/_latestVersion)
 ```groovy
 compile 'com.github.florent37:androidparallax:1.0.0@aar'
 ```
@@ -17,7 +15,8 @@ Usage
 --------
 
 Simply replace your ScrollView with a **com.github.florent37.parallax.ScrollView**
-then surround your moving views with a **com.github.florent37.parallax.ParallaxView**
+
+Then surround your moving views with a **com.github.florent37.parallax.ParallaxView**
 
 ```xml
 <com.github.florent37.parallax.ScrollView
@@ -45,6 +44,20 @@ then surround your moving views with a **com.github.florent37.parallax.ParallaxV
 
 </com.github.florent37.parallax.ScrollView>
 ```
+
+And 0no additionnal lines into the activity !
+
+```java
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+
+}
+``
 
 ParallaxView
 --------
