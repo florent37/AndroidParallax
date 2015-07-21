@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="parallaxVertical" format="float" />
+    <attr name="parallaxHorizontal" format="float" />
+
+    <declare-styleable name="ParallaxView">
+        <attr name="parallaxVertical"/>
+        <attr name="parallaxHorizontal"/>
+    </declare-styleable>
+
+
+</resources>
