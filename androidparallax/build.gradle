@@ -37,8 +37,8 @@ dependencies {
 // ./gradlew install bintrayUpload
 
 
-def siteUrl = 'https://github.com/florent37/Parallax'      // Homepage URL of the library
-def gitUrl = 'https://github.com/florent37/Parallax.git'   // Git repository URL
+def siteUrl = 'https://github.com/florent37/AndroidParallax'      // Homepage URL of the library
+def gitUrl = 'https://github.com/florent37/AndroidParallax.git'   // Git repository URL
 group = "com.github.florent37"                      // Maven Group ID for the artifact
 
 
@@ -50,7 +50,7 @@ install {
                 packaging 'aar'
 
                 // Add your description here
-                name 'Parallax'
+                name 'AndroidParallax'
                 description = ''
                 url siteUrl
 
@@ -115,7 +115,7 @@ bintray {
     pkg {
         repo = "maven"
         // it is the name that appears in bintray when logged
-        name = "Parallax"
+        name = "AndroidParallax"
         websiteUrl = siteUrl
         vcsUrl = gitUrl
         licenses = ["Apache-2.0"]
