@@ -1,7 +1,7 @@
 # AndroidParallax
 Parallax on Android in the simplest way
 
-[![Video](http://i.giphy.com/3o85xJJNrvTdxHXd9C.gif)](https://www.youtube.com/watch?v=SiaBDZNUtWM)
+[![Video](http://i.giphy.com/3o85xJJNrvTdxHXd9C.gif)](https://youtu.be/0b3Nr5kW-Vw)
 
 Download
 --------
