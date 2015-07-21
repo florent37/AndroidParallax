@@ -49,6 +49,7 @@
 
             <include layout="@layout/card_view" />
 
+            <!--
             <com.github.florent37.parallax.ParallaxView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -74,6 +75,8 @@
                 </android.support.v7.widget.CardView>
 
             </com.github.florent37.parallax.ParallaxView>
+-->
+            <include layout="@layout/card_view" />
 
             <include layout="@layout/card_view" />
 

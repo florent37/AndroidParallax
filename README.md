@@ -1,7 +1,7 @@
 # AndroidParallax
 Parallax on Android in the simplest way
 
-[![Video](http://i.giphy.com/xTiTngOQRUDjpVZlg4.gif)](https://www.youtube.com/watch?v=SiaBDZNUtWM)
+[![Video](http://i.giphy.com/3o85xJJNrvTdxHXd9C.gif)](https://www.youtube.com/watch?v=SiaBDZNUtWM)
 
 Download
 --------
@@ -45,7 +45,7 @@ Then surround your moving views with a **com.github.florent37.parallax.ParallaxV
 </com.github.florent37.parallax.ScrollView>
 ```
 
-And 0no additionnal lines into the activity !
+And no additionnal lines into the activity !
 
 ```java
 public class MainActivity extends AppCompatActivity {
@@ -67,8 +67,6 @@ Parallax attributes defines a parallax factor for this view
 
 - parallaxVertical < 0 : the view will move slower than the scroll
 - parallaxVertical > 0 : the view will move faster than the scroll
-- parallaxHorizontal > 0 : the view will move to the right
-- parallaxHorizontal < 0 : the view will move to the left
 
 ```xml
 <com.github.florent37.parallax.ParallaxView
@@ -76,7 +74,7 @@ Parallax attributes defines a parallax factor for this view
          android:layout_height="wrap_content"
 
          app:parallaxVertical="1.1"
-         app:parallaxHorizontal="0.8"
+
          >
 
          <!-- content -->
