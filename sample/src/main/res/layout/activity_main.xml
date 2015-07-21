@@ -31,13 +31,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="My awesome title"
-                android:textColor="@android:color/white"
-                android:textSize="40sp"
-                android:shadowDy="1"
-                android:shadowDx="1"
-                android:shadowRadius="1"
-                android:shadowColor="@android:color/black"
-                 />
+                style="@style/MyTitle" />
 
         </com.github.florent37.parallax.ParallaxView>
 

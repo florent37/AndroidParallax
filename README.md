@@ -40,6 +40,21 @@ Then surround your moving views with a **com.github.florent37.parallax.ParallaxV
 
     </com.github.florent37.parallax.ParallaxView>
 
+    <com.github.florent37.parallax.ParallaxView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        app:parallaxVertical="0.5">
+
+        <!-- this view will have parallax effect -->
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My awesome title"
+            style="@style/myTitle"/>
+
+    </com.github.florent37.parallax.ParallaxView>
+
     <!-- ...your usual views... -->
 
 </com.github.florent37.parallax.ScrollView>

@@ -11,4 +11,13 @@
 
     </style>
 
+    <style name="MyTitle">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowColor">@android:color/black</item>
+    </style>
+
 </resources>
