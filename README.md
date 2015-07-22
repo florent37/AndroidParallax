@@ -16,7 +16,7 @@ Usage
 
 Simply replace your ScrollView with a **com.github.florent37.parallax.ScrollView**
 
-Then surround your moving views with a **com.github.florent37.parallax.ParallaxView**
+Then add a **parallax=FLOAT_VALUE** into your view's **tag**
 
 ```xml
 <com.github.florent37.parallax.ScrollView
@@ -26,34 +26,23 @@ Then surround your moving views with a **com.github.florent37.parallax.ParallaxV
 
     <!-- ...your usual views... -->
 
-    <com.github.florent37.parallax.ParallaxView
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-         app:parallaxVertical="0.3">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background"
 
-         <!-- this view will have parallax effect -->
-         <ImageView
-             android:layout_width="match_parent"
-             android:layout_height="200dp"
-             android:scaleType="centerCrop"
-             android:src="@drawable/background" />
+        android:tag="parallax=0.3" />
 
-    </com.github.florent37.parallax.ParallaxView>
-
-    <com.github.florent37.parallax.ParallaxView
+    <TextView
+        style="@style/MyTitle"
         android:layout_width="match_parent"
         android:layout_height="160dp"
-        app:parallaxVertical="0.5">
+        android:gravity="center"
+        android:text="My awesome title"
 
-        <!-- this view will have parallax effect -->
-        <TextView
-            android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="My awesome title"
-            style="@style/myTitle"/>
-
-    </com.github.florent37.parallax.ParallaxView>
+        android:tag="parallax=0.5"
+         />
 
     <!-- ...your usual views... -->
 
@@ -77,6 +66,8 @@ public class MainActivity extends AppCompatActivity {
 ParallaxView
 --------
 
+If you don't want to play with the **android:tag** attributes, then you cas simple surround your view with a ParallaxView.
+
 A ParallaxView can move vertically of horizontally
 Parallax attributes defines a parallax factor for this view
 
@@ -92,7 +83,7 @@ Parallax attributes defines a parallax factor for this view
 
          >
 
-         <!-- content -->
+         <!-- Your View -->
 
 </com.github.florent37.parallax.ScrollView>
 ```
@@ -111,7 +102,7 @@ Horizontal translation
 
          >
 
-         <!-- content -->
+          <!-- Your View -->
 
 </com.github.florent37.parallax.ScrollView>
 ```
