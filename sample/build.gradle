@@ -23,4 +23,8 @@ dependencies {
     compile 'com.android.support:appcompat-v7:'+ project.SUPPORT_VERSION
     compile 'com.android.support:cardview-v7:'+ project.SUPPORT_VERSION
     compile project(':androidparallax')
+
+    //compile ('com.github.florent37:androidparallax:1.0.0@aar'){
+    //    transitive=true
+    //}
 }

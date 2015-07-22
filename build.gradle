@@ -27,8 +27,6 @@ ext{
     ANDROID_BUILD_SDK_VERSION=22
 
     SUPPORT_VERSION='22.2.1'
-
-    MAVEN_VERSION='1.0.0'
 }
 
 allprojects {

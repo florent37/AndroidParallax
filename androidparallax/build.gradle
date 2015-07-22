@@ -4,7 +4,7 @@ apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 apply plugin: 'com.github.ben-manes.versions'
 
-version = project.MAVEN_VERSION
+version = "1.0.1"
 
 android {
     compileSdkVersion project.ANDROID_BUILD_SDK_VERSION
@@ -47,7 +47,7 @@ install {
         // This generates POM.xml with proper parameters
         pom {
             project {
-                packaging 'aar'
+                packaging 'jar'
 
                 // Add your description here
                 name 'AndroidParallax'
