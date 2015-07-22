@@ -41,8 +41,7 @@ Then add a **parallax=FLOAT_VALUE** into your view's **tag**
         android:gravity="center"
         android:text="My awesome title"
 
-        android:tag="parallax=0.5"
-         />
+        android:tag="parallax=0.5" />
 
     <!-- ...your usual views... -->
 
