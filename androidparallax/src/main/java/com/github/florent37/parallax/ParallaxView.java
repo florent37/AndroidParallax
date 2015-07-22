@@ -37,8 +37,4 @@ public class ParallaxView extends FrameLayout {
         handleAttributes(context, attrs);
     }
 
-    public void onParallax(int offset) {
-        ViewHelper.setTranslationY(this,offset * parallaxVertical);
-        ViewHelper.setTranslationX(this,offset * parallaxHorizontal);
-    }
 }

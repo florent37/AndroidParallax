@@ -1,0 +1,48 @@
+<com.github.florent37.parallax.ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background"
+            android:tag="parallax=0.3" />
+
+        <TextView
+            style="@style/MyTitle"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:gravity="center"
+            android:tag="parallax=0.5"
+            android:text="My awesome title" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:orientation="vertical">
+
+            <include layout="@layout/card_view" />
+
+            <include layout="@layout/card_view" />
+
+            <include layout="@layout/card_view" />
+
+            <include layout="@layout/card_view" />
+
+            <include layout="@layout/card_view" />
+
+            <include layout="@layout/card_view" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</com.github.florent37.parallax.ScrollView>
