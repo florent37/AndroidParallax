@@ -3,10 +3,13 @@ Parallax on Android in the simplest way
 
 [![Video](http://i.giphy.com/3o85xJJNrvTdxHXd9C.gif)](https://youtu.be/0b3Nr5kW-Vw)
 
+<a href="https://play.google.com/store/apps/details?id=com.github.florent37.parallax.sample">
+  <img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
+</a>
+
 Download
 --------
 
-In your build.gradle [![Download](https://api.bintray.com/packages/florent37/maven/AndroidParallax/images/download.svg)](https://bintray.com/florent37/maven/AndroidParallax/_latestVersion)
 ```groovy
 compile ('com.github.florent37:androidparallax:1.0.1@aar'){
         transitive=true
