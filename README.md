@@ -116,6 +116,7 @@ TODO
 --------
 
 - Add RecyclerView Parallax
+- Add fading / parallax effect on a toolbar
 
 Community
 --------
