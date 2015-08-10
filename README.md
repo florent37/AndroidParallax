@@ -1,4 +1,6 @@
 # AndroidParallax
+
+[![Join the chat at https://gitter.im/florent37/AndroidParallax](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/florent37/AndroidParallax?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Parallax on Android in the simplest way
 
 [![Video](http://i.giphy.com/3o85xJJNrvTdxHXd9C.gif)](https://youtu.be/0b3Nr5kW-Vw)
