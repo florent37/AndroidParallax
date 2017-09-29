@@ -1,6 +1,9 @@
 # AndroidParallax
 
-[![Join the chat at https://gitter.im/florent37/AndroidParallax](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/florent37/AndroidParallax?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+<a href="https://play.google.com/store/apps/details?id=com.github.florent37.florent.champigny">
+  <img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
+</a>
+
 Parallax on Android in the simplest way
 
 [![Video](http://i.giphy.com/3o85xJJNrvTdxHXd9C.gif)](https://youtu.be/0b3Nr5kW-Vw)
@@ -131,6 +134,9 @@ Credits
 
 Author: Florent Champigny
 
+<a href="https://play.google.com/store/apps/details?id=com.github.florent37.florent.champigny">
+  <img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
+</a>
 <a href="https://plus.google.com/+florentchampigny">
   <img alt="Follow me on Google+"
        src="https://raw.githubusercontent.com/florent37/DaVinci/master/mobile/src/main/res/drawable-hdpi/gplus.png" />
