@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
 ParallaxView
 --------
 
-If you don't want to play with the **android:tag** attributes, then you cas simple surround your view with a ParallaxView.
+If you don't want to play with the **android:tag** attributes, then you can simple surround your view with a ParallaxView.
 
 A ParallaxView can move vertically of horizontally
 Parallax attributes defines a parallax factor for this view
