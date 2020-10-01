@@ -60,7 +60,7 @@ Then add a **parallax=FLOAT_VALUE** into your view's **tag**
 </com.github.florent37.parallax.ScrollView>
 ```
 
-And no additionnal lines into the activity !
+And no extra lines into the activity !
 
 ```java
 public class MainActivity extends AppCompatActivity {
