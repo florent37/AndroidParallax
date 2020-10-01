@@ -1,4 +1,4 @@
-# AndroidParallax
+# AndroidParallax - Awesome View
 
 
 <a href="https://goo.gl/WXW8Dc">
@@ -33,8 +33,7 @@ Then add a **parallax=FLOAT_VALUE** into your view's **tag**
 ```xml
 <com.github.florent37.parallax.ScrollView
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    android:layout_height="match_parent" >
 
     <!-- ...your usual views... -->
 
@@ -52,7 +51,6 @@ Then add a **parallax=FLOAT_VALUE** into your view's **tag**
         android:layout_height="160dp"
         android:gravity="center"
         android:text="My awesome title"
-
         android:tag="parallax=0.5" />
 
     <!-- ...your usual views... -->
